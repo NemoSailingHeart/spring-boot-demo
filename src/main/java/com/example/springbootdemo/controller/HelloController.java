@@ -21,7 +21,6 @@ public class HelloController {
 
     @RequestMapping("/getUser")
     public User getUser(){
-
         return new User("小明", "1233432");
     }
 
